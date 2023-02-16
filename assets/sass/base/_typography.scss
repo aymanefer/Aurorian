@@ -26,10 +26,6 @@
 		}
 	}
 
-	body {
-		background-color: _palette(bg);
-		color: _palette(fg);
-	}
 
 	body, input, select, textarea {
 		color: _palette(fg-bold);
@@ -38,6 +34,15 @@
 		font-weight: _font(weight);
 		letter-spacing: _font(kerning);
 		line-height: 2;
+	}
+
+	body {
+		background-color: _palette(bg);
+		color: _palette(fg);
+	}
+	
+	header {
+		color: _palette(fg-bold)
 	}
 
 	a {
