@@ -8,7 +8,6 @@
 
 	@mixin wrapper-pad($pad) {
 		padding: 0 0 ($pad * 2) 0;
-
 		// Sections (all).
 			section {
 				margin: ($pad * 1.5) 0 0 0;
@@ -121,7 +120,7 @@
 			section {
 				margin: ($pad * 1.5) 0 0 0;
 			}
-
+			
 		// Sections (top level).
 			> section {
 				margin: 0;
@@ -384,7 +383,7 @@
 			$pad: 4rem;
 
 			padding: 0;
-
+			
 			// Background.
 				&:before {
 					display: none;
@@ -568,7 +567,6 @@
 	// Mobile.
 		body.is-mobile {
 			#wrapper {
-
 				// Background.
 					&:before {
 						background-attachment: scroll;

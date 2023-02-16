@@ -1,0 +1,23 @@
+#logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10rem !important;
+}
+
+.intro header {
+    padding-top: 150px !important;
+}
+
+@media screen and (min-width: 1153px) {
+    .intro header {
+        padding-top: 4rem !important;
+    }
+    #logo {
+        position: absolute;
+        right: auto;
+        left: 0;
+        top: 0;
+        width: 10rem !important;
+    }
+}
