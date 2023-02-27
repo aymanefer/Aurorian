@@ -9,6 +9,18 @@
     padding-top: 150px !important;
 }
 
+body {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: left;
+}
+
 @media screen and (min-width: 1153px) {
     .intro header {
         padding-top: 4rem !important;
@@ -19,5 +31,11 @@
         left: 0;
         top: 0;
         width: 10rem !important;
+    }
+    body {
+        text-align: justify;
+    }
+    h2 {
+        text-align: left;
     }
 }
